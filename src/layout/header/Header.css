@@ -1,0 +1,77 @@
+header {
+  height: 100vh;
+  width: 25rem;
+  background: linear-gradient(180deg, #1d1d1d, #2c2c2c);
+  position: absolute;
+  box-sizing: border-box;
+  border-right: 0.1rem solid rgba(255, 255, 255, 0.1);
+}
+header .profile {
+  display: flex;
+  justify-content: center;
+  padding: 3rem 2rem 0;
+}
+header .profile img {
+  width: 8rem;
+}
+header .info-container {
+  display: grid;
+  gap: 0.5rem;
+  padding: 2rem;
+  text-align: center;
+  border-bottom: 0.1rem solid rgba(255, 255, 255, 0.1);
+}
+header .skill-container {
+  display: grid;
+  gap: 1rem;
+  padding: 2rem;
+  border-bottom: 0.1rem solid rgba(255, 255, 255, 0.1);
+}
+header .skill-container .skill {
+  font-weight: 600;
+  height: 3rem;
+  display: flex;
+  border-radius: 2rem;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+  /* box-shadow: 1px 1px inset #272529; */
+  transition: 0.3s;
+  cursor: pointer;
+  background: #373737;
+  color: #d2d2d2;
+  border: 1px solid #404040;
+  box-sizing: border-box;
+}
+header .skill-container .skill:hover {
+  background: #343434;
+  color: #fff;
+}
+header .info-container .name {
+  font-size: 1.8rem;
+  color: #fff;
+  font-weight: 600;
+}
+header .info-container .job {
+  font-size: 1.4rem;
+  color: #fff;
+  font-weight: 600;
+  opacity: 0.6;
+}
+
+header .bar-container {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+header .bar-container p {
+  color: #d2d2d2;
+  width: 2rem;
+  font-size: 1.3rem;
+}
+header .bar-container .bar {
+  width: 100%;
+  height: 0.8rem;
+  background: #000;
+  border-radius: 1rem;
+}
