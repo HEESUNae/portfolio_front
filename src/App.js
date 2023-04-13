@@ -1,5 +1,5 @@
 import "./App.css";
-import { HashRouter as Routes, Route, Outlet } from "react-router-dom";
+import { Routes, Route, Outlet } from "react-router-dom";
 
 import { Header } from "./containers/header/Header";
 import { InfoPage } from "./pages/infoPage";
