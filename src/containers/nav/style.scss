@@ -1,0 +1,21 @@
+.nav {
+  color: #fff;
+  ul {
+    display: flex;
+    margin-left: 2rem;
+    li {
+      cursor: pointer;
+      border-radius: 0.8rem;
+      &.active {
+        background-color: #373737;
+      }
+      p {
+        display: flex;
+        align-items: center;
+        height: 4.2rem;
+        padding: 0 2rem;
+        color: #fff;
+      }
+    }
+  }
+}

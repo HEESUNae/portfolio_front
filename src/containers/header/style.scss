@@ -1,0 +1,45 @@
+header {
+  width: 100%;
+  height: 7.5rem;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(180deg, #1d1d1d, #2c2c2c);
+  .profile {
+    display: flex;
+    justify-content: center;
+    padding: 0 2rem;
+    img {
+      width: 4rem;
+    }
+  }
+  .info-container {
+    .name {
+      font-size: 1.6rem;
+      color: #fff;
+      font-weight: 600;
+    }
+    .job {
+      font-size: 1.2rem;
+      color: #fff;
+      font-weight: 600;
+      opacity: 0.6;
+    }
+  }
+
+  .bar-container {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    p {
+      color: #d2d2d2;
+      width: 2rem;
+      font-size: 1.3rem;
+    }
+    .bar {
+      width: 100%;
+      height: 0.8rem;
+      background: #000;
+      border-radius: 1rem;
+    }
+  }
+}

@@ -1,0 +1,72 @@
+.my-info {
+  width: 100%;
+  height: calc(100vh - 7.5rem);
+  section {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .img-wrap {
+    .badge {
+      background: #333;
+      color: #fff;
+      display: inline-block;
+      padding: 1rem;
+      border-radius: 0.8rem;
+      position: absolute;
+      top: -1rem;
+      left: 45%;
+      animation: clickMe 3s infinite;
+      &::after {
+        content: "";
+        border: 0.6rem solid #333;
+        position: absolute;
+        bottom: -1rem;
+        left: 50%;
+        z-index: -1;
+        transform: rotate(45deg) translate(-50%, 0);
+      }
+    }
+    &.phone {
+      position: fixed;
+      top: 38%;
+      right: 30%;
+      cursor: pointer;
+    }
+    &.career {
+      position: fixed;
+      bottom: -4rem;
+      left: 0;
+      cursor: pointer;
+    }
+  }
+
+  table {
+    width: 100%;
+    tr {
+      th {
+        text-align: left;
+        height: 2.5rem;
+      }
+    }
+  }
+  .carrer-list {
+    &:not(:first-child) {
+      margin-top: 1.5rem;
+    }
+    p:nth-child(1) {
+      font-weight: 600;
+      margin-bottom: 0.4rem;
+    }
+  }
+}
+
+@keyframes clickMe {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
