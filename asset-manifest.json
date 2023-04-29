@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio_front/static/css/main.8a059262.css",
-    "main.js": "/portfolio_front/static/js/main.568a60d7.js",
+    "main.css": "/portfolio_front/static/css/main.f06f7e0d.css",
+    "main.js": "/portfolio_front/static/js/main.e20eb760.js",
     "static/js/787.a08e8120.chunk.js": "/portfolio_front/static/js/787.a08e8120.chunk.js",
     "static/media/info.mp4": "/portfolio_front/static/media/info.a947ab304af7dbe6fa70.mp4",
     "static/media/disney-img.jpg": "/portfolio_front/static/media/disney-img.bcc10d5b0fc8806cb5bc.jpg",
@@ -9,16 +9,17 @@
     "static/media/starbucks-img.jpg": "/portfolio_front/static/media/starbucks-img.e8b9a21a8e4df616f612.jpg",
     "static/media/maple-img.jpg": "/portfolio_front/static/media/maple-img.70b141cd72d92b74ed09.jpg",
     "static/media/tictactoe-img.jpg": "/portfolio_front/static/media/tictactoe-img.dfc70db4b531aa94ba8b.jpg",
+    "static/media/pokemon-img.webp": "/portfolio_front/static/media/pokemon-img.10f242e24cdef07b0421.webp",
     "static/media/hs.png": "/portfolio_front/static/media/hs.f7c0798dfe78601b81e4.png",
     "static/media/icon-career.svg": "/portfolio_front/static/media/icon-career.feedbbca39af1662f76420782fbe4dfe.svg",
     "static/media/icon-calling.svg": "/portfolio_front/static/media/icon-calling.26cb3b06374b3bd5d8964a257f749487.svg",
     "index.html": "/portfolio_front/index.html",
-    "main.8a059262.css.map": "/portfolio_front/static/css/main.8a059262.css.map",
-    "main.568a60d7.js.map": "/portfolio_front/static/js/main.568a60d7.js.map",
+    "main.f06f7e0d.css.map": "/portfolio_front/static/css/main.f06f7e0d.css.map",
+    "main.e20eb760.js.map": "/portfolio_front/static/js/main.e20eb760.js.map",
     "787.a08e8120.chunk.js.map": "/portfolio_front/static/js/787.a08e8120.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8a059262.css",
-    "static/js/main.568a60d7.js"
+    "static/css/main.f06f7e0d.css",
+    "static/js/main.e20eb760.js"
   ]
 }
