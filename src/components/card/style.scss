@@ -1,12 +1,12 @@
 .card-container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(270px, 270px));
+  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
   justify-content: center;
   gap: 3rem;
 }
 
 .card {
-  width: 27rem;
+  width: 100%;
   border-radius: 1rem;
   overflow: hidden;
   background: #fff;
@@ -31,7 +31,7 @@
   .card-content {
     padding: 2rem;
     .title {
-      font-weight: 800;
+      font-weight: 500;
       color: #333;
       font-size: 1.7rem;
       margin-bottom: 1rem;

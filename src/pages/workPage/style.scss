@@ -1,7 +1,7 @@
 main {
   height: calc(100vh - 135px);
   background-color: #eee;
-  padding: 3rem 0;
+  padding: 3rem;
   overflow: auto;
   &::-webkit-scrollbar {
     width: 0;

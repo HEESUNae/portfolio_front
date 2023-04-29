@@ -7,7 +7,7 @@ export const StyledBadge = styled.div`
   font-size: 1rem;
   display: inline-block;
   line-height: 1.2;
-  font-weight: 600;
+  font-weight: 500;
   background: ${(props) => {
     if (props.badge === "HTML") {
       return "chocolate";
