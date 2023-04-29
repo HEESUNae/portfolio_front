@@ -1,5 +1,9 @@
 main {
-  height: 100vh;
+  height: calc(100vh - 135px);
   background-color: #eee;
   padding: 3rem 0;
+  overflow: auto;
+  &::-webkit-scrollbar {
+    width: 0;
+  }
 }

@@ -19,11 +19,11 @@ export const Nav = () => {
             <p>개인 작업물</p>
           </Link>
         </li>
-        <li className={location === "/skill" ? "active" : ""}>
+        {/* <li className={location === "/skill" ? "active" : ""}>
           <Link to="/skill">
             <p>사용 가능한 스킬</p>
           </Link>
-        </li>
+        </li> */}
       </ul>
     </div>
   );
