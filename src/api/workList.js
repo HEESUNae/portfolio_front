@@ -1,5 +1,11 @@
 export const workList = [
   {
+    image: require("../assets/blog-img.jpg"),
+    title: "Support Rabbit Blog",
+    badge: ["HTML", "SCSS", "NEXTJS", "TYPESCRIPT"],
+    link: "https://nextjs-rabbit.vercel.app/",
+  },
+  {
     image: require("../assets/pokemon-img.webp"),
     title: "POKEMON",
     badge: ["HTML", "CSS", "REACT", "TYPESCRIPT"],

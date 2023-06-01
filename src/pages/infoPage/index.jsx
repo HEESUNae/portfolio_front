@@ -61,7 +61,7 @@ const PhoneModal = () => {
     <table>
       <tbody>
         <tr>
-          <th>이름</th>
+          <th style={{ width: "8rem" }}>이름</th>
           <td>황희선</td>
         </tr>
         <tr>
@@ -71,6 +71,10 @@ const PhoneModal = () => {
         <tr>
           <th>전화번호</th>
           <td>010-7139-3044</td>
+        </tr>
+        <tr>
+          <th>이메일</th>
+          <td>heesun945@naver.com</td>
         </tr>
         <tr>
           <th>사는곳</th>
@@ -83,6 +87,13 @@ const PhoneModal = () => {
         <tr>
           <th>MBTI</th>
           <td>용감한 수호자(ISFJ)</td>
+        </tr>
+        <tr>
+          <th>스킬</th>
+          <td>
+            <p>HTML, CSS, SCSS, JavaScript, </p>
+            <p>TypeScript, React, Next.js</p>
+          </td>
         </tr>
       </tbody>
     </table>

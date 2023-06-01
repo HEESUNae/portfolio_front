@@ -15,6 +15,9 @@ export const StyledBadge = styled.div`
     if (props.badge === "CSS") {
       return "darkblue";
     }
+    if (props.badge === "SCSS") {
+      return "hotpink";
+    }
     if (props.badge === "REACT") {
       return "crimson";
     }
